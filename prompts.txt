@@ -1,0 +1,22 @@
+# Prompts útiles (copiar/pegar en Cursor)
+
+1) Tests (objetivo ≥80%):
+Genera tests para orders/service.ts (Jest). Cubre happy path, bordes y errores. Usa patrón AAA y nombres descriptivos. Objetivo: cobertura ≥ 80% en este módulo.
+
+2) Smells:
+Lista 10 code smells en orders/service.ts (archivo/línea, explicación y refactor sugerido). Mantén la API pública.
+
+3) Refactor seguro:
+Refactoriza orders/service.ts: extrae validateOrder(data), reduce complejidad < 10, conserva firmas y tests. Explica cada cambio en un comentario breve.
+
+4) Performance:
+Elimina N+1 en repository.ts usando include/join o batch; agrega medición simple de tiempo y explica el impacto esperado.
+
+5) README del módulo:
+Genera README.md para /api/src/orders con propósito, dependencias, ejemplo de uso y limitaciones. Formato Markdown (H2 y ejemplo runnable).
+
+6) Commit (Conventional Commits):
+Redacta commit estilo Conventional Commits (scope: orders) para este diff. Resumen ≤72 caracteres y cuerpo con “qué” y “por qué”.
+
+7) Review del PR:
+Revisa este PR con foco en seguridad, tests (≥80%), complejidad (funciones >50 líneas) y rendimiento (N+1/índices). Propón parches concretos.

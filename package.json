@@ -1,0 +1,26 @@
+{
+  "name": "techflow-case-start",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node --esm src/server.ts",
+    "test": "jest",
+    "test:cov": "jest --coverage",
+    "build": "tsc",
+    "perf:orders": "ts-node --esm scripts/perf_orders.ts"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.19",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
